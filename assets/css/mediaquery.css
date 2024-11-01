@@ -1,0 +1,237 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px - 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+   /* product details */
+   .product-detail .product-media{
+     margin-right: 26px;
+     width: 53%;
+   }
+   .product-detail .product-info{
+    margin-left: 0px;
+    width: 44%;
+  }
+  /* NavBar spacing */
+  .container-fluid nav .menu-items{
+    margin-left: -15px !important ;
+    margin-right: 217px !important;
+    padding-left: 0px;
+
+    }
+
+    .logoImg{
+      padding: 0px;
+      width:170px ;
+      height:60px ;
+      margin-left: -26px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+  /* product details */
+  #main-slider  {
+    width: 310px;
+    
+  }
+  #thumbnail-slider {
+    max-width: 300px;
+  
+  }
+  .splide__arrow.splide__arrow--next {
+    
+    transform: translate(50%, -50%) !important;
+    
+  }
+
+
+  /* recommended-prodect */
+ 
+  .product-recommendations{
+    padding: 36px 50px 28px;
+  }
+
+  /* review section */
+}
+
+/* Small devices (portrait tablets, 600px - 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+     /* product details */
+
+    .product-detail .product-media{
+      height: 68vh;
+    }
+    
+     #main-slider  {
+      width: 330px;
+      
+    }
+    #thumbnail-slider {
+      max-width: 330px;
+      height:50px;
+    }
+    .splide__arrow.splide__arrow--next {
+      
+      transform: translate(50%, -50%) !important;
+      
+    }
+    
+}
+
+/* Extra small devices (phones, up to 599px) */
+@media only screen and (max-width: 600px) {
+   /* --------- */
+    /* product details */
+    /* #main-slider  {
+      width: 310px;
+      
+    }
+    #thumbnail-slider {
+      max-width: 300px;
+    
+    }
+    .splide__arrow.splide__arrow--next {
+      
+      transform: translate(50%, -50%) !important;
+      
+    } */
+    
+/* navbar Adjusmenta */
+  .logoImg img 
+  {
+      max-width: 100px !important;
+      display: inline-block !important;
+  }
+  
+  .navbar {
+      padding: 0 !important;
+  }
+  
+  .navbar-toggler i {
+      display: inline-block;
+      margin: 0;
+  }
+  
+  .offcanvas.offcanvas-start{
+    top:85px !important;
+    
+    max-width: 70%;
+  }
+
+  /* modal image preview */
+  .modal-content{
+    
+    width: 100%;
+   
+  }
+
+  .close{
+    
+    top: 0px;
+    right: 25px;
+    font-size: 40px;
+    font-weight: 600;
+    z-index: 1;
+    color: lemonchiffon;
+   
+  }
+  
+  
+}
+
+/* Extra small devices (phones, up to 576px) */
+@media only screen and (max-width: 576px) {
+  .product-detail .product-info{
+    margin-left: 41px;
+    width: 90%;
+  }
+
+  .order-whatsapp{
+    width: 80%;
+  
+  }
+}
+
+/* Extra small devices (phones, up to 500px) */
+@media only screen and (max-width: 500px) {
+  
+
+    
+}
+
+/* Other Android Devices (phones, up to 450px) */
+@media only screen and (max-width: 450px) {
+   .card-img-top{
+    height: 13rem !important;
+   }
+
+   #main-slider  {
+    width: 330px;
+  }
+
+  
+}
+
+/* iPhone 13 Pro Max */
+@media only screen and (max-device-width: 428px) {
+    
+}
+
+/* iPhone XR Max */
+@media only screen and (max-device-width: 414px) {
+    
+}
+
+/* Pixel 5 */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 Pro */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 */
+@media only screen and (max-device-width: 375px) {
+  #main-slider  {
+    width: 300px;
+  }
+  .product-detail .product-info{
+    margin-left: 31px;
+    width: 90%;
+  }
+
+  .input-fields .form-field #Whatsapp{
+    /* border: 1px solid black;
+    padding:22px 15px 8px 20px; */
+    width: 248px;
+    height: 45px;
+  }
+
+  .order-whatsapp .whatsapp-btn{
+   
+    font-size: 14px;
+   
+    width: 100%;
+    
+    padding: 10px;
+   
+    
+    
+  }
+  .product-tittle{
+    font-size: 37px;
+    
+  }
+}
+
+/* Samsung Galaxy */
+@media only screen and (max-device-width: 360px) {
+ 
+}

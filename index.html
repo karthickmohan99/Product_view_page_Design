@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AvensEcom</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+
+    <!-- <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.1.2/dist/css/coreui.min.css" rel="stylesheet"
+        integrity="sha384-lBISJVJ49zh34fnUuAaSAyuYzQ2ioGvhm4As4Z1JFde0kVpaC1FFWD3f9adpZrdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/mediaquery.css">
+    <link rel="stylesheet" href="./assets/css/nav-footer.css">
+    <link rel="stylesheet" href="./assets/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/aos/css/aos.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cdbootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cdbootstrap/css/cdb.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section class="navbars">
+        <!-- announcement bar -->
+        <div class="announcementBar">
+            <a href="" class="announcementBarLink">
+                <p>
+                    <span>
+                        FREE Shipping On All Orders
+                    </span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </p>
+            </a>
+        </div>
+        <!-- announcement bar -->
+
+        <div class="container-fluid ">
+            <nav
+                class=" row navbar navbar-expand-lg ps-5 pe-5 pt-3 pb-3 d-flex overflow-hidden text-nowrap justify-content-between">
+
+                <div class="m-0 d-lg-none  col-3">
+                    <button id="toggleButton"
+                        class="navbar-toggler  d-flex justify-content-start ps-2 py-0 px-0 border-0 me-0" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#sidebarDrawer" aria-controls="sidebarDrawer"
+                        aria-label="Toggle navigation ">
+                        <i class="fa-solid fa-bars" id="buttonIcon"></i>
+                    </button>
+                </div>
+
+                <a class="logoImg me-sm-auto  col-5 col-lg-3  d-lg-flex" href="">
+                    <img src="./assets/media/images/logo.avif" class="img-fluid" alt="...">
+                </a>
+
+                <div class=" menu-items col-6  d-none d-lg-block  ">
+                    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-start text-nowrap">
+                            <a class="nav-link navLinksTxt" aria-current="page" href="#">Best Seller</a>
+                            <a class="nav-link navLinksTxt" href="#">Anniversary Gift</a>
+                            <a class="nav-link navLinksTxt" href="#">Birthday Gifts</a>
+                            <a class="nav-link navLinksTxt" href="#">Couple gifts</a>
+                            <a class="nav-link navLinksTxt" href="#">Photo Frames</a>
+                            <a class="nav-link navLinksTxt" href="#">Plush Toys</a>
+                            <a class="nav-link navLinksTxt" href="#">Merge Art</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navIcons  text-nowrap col-4     col-lg-2 px-0 ps-sm-4 ps-md-4">
+                    <a class="" href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a class="px-2  px-lg-3" href="./login.html">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <a class=" " href="./cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+
+            </nav>
+        </div>
+    </section>
+
+    <!--drawer offcanvas-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarDrawer" aria-labelledby="offcanvasExampleLabel">
+
+        <div class="offcanvas-body p-0">
+            <div>
+                <ul class="m-0 p-0 menu-items">
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Best Seller</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Anniversary Gifts</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Birthday Gifts</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Couple Gifts</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Photo Frames</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Photo Projection Gifts</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Photo Projection Gifts</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Plish Toys</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Valentine Day Gifts</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">Merge Art</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" clas="py-3 px-5">All Products</a>
+                    </li>
+
+
+
+                </ul>
+                <div class="drawer utility-links d-flex  flex-column gap-3 py-3">
+                    <a class="text-decoration-none text-white " href=""><i class="fa-solid fa-user pe-4"></i>Login</a>
+                    <ul class="mx-0 px-0 ">
+                        <li class="p-0">
+                            <a href="" class="pe-3">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="" class="pe-3 ps-0">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="" class="px-0">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="wrapper">
+        <section class="product-detail">
+            <div class="container">
+                <div class="row">
+                    <!-- left column product preview  and thumbnail-slider -->
+                    <div class="product-media p-0 col-12 col-md-6 mt-5 d-flex justify-content-center">
+                        <div class="d-flex flex-column ">
+                            <div id="main-slider" class="splide">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide">
+                                            <img class="preview-img"
+                                                src="assets/media/images/products/hover-img-6.webp">
+                                            <span
+                                                class="product-zoom-icon d-flex justify-content-center align-items-center">
+                                                <i class="bi bi-zoom-in"></i>
+                                            </span>
+
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img class="preview-img" src="assets/media/images/products/image23.webp">
+                                            <span
+                                                class="product-zoom-icon d-flex justify-content-center align-items-center">
+                                                <i class="bi bi-zoom-in"></i>
+                                            </span>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img class="preview-img"
+                                                src="assets/media/images/products/Tom-back-case.webp">
+                                            <span
+                                                class="product-zoom-icon d-flex justify-content-center align-items-center">
+                                                <i class="bi bi-zoom-in"></i>
+                                            </span>
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img class="preview-img"
+                                                src="assets/media/images/products/Tom-back-case.-yellow.webp">
+                                            <span
+                                                class="product-zoom-icon d-flex justify-content-center align-items-center">
+                                                <i class="bi bi-zoom-in"></i>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="thumbnail-slider" class="splide mt-4 text-center">
+                                <div class="splide__track  ">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide">
+                                            <img src="assets/media/images/products/hover-img-6.webp">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/media/images/products/image23.webp">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/media/images/products/Tom-back-case.webp">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/media/images/products/Tom-back-case.-yellow.webp">
+                                        </li>
+
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right column product details -->
+                    <div class="product-info   p-0 col-12 col-md-6 ">
+
+                        <p class="mb-0 mt-5 brand-caption">Giftify</p>
+                        <h1 class="product-tittle">Tom and Jerry Couple Phone/Mobile Cover</h1>
+
+                        <!-- price section -->
+                        <div class="priceContainer d-flex gap-3">
+                            <S class="orginalPriceTag">
+                                Rs. 1,499.00
+                            </S>
+                            <span class="salePriceTag ">
+
+                                Rs. 1,199.00
+                            </span>
+                            <span
+                                class="tag sale-tag text-nowrap py-1 px-3  rounded-4 bg-dark text-white d-flex justify-content-center align-items-center">sale</span>
+                            <span
+                                class="tag soldout-tag d-none bg-secondary text-nowrap  py-1 px-3  rounded-4  text-white d-flex justify-content-center align-items-center">sold
+                                out</span>
+
+                        </div>
+                        <!-- shipping text -->
+                        <div class="shipping-text-container">
+                            <a href="" class="shipping-sec-text me-1">Shipping</a>Calculated at checkout.
+                        </div>
+                        <!-- star ratings -->
+                        <div class="star-container " id="rating1" role="rating" data-rating="4">
+                            <span role="button" tabindex="0">
+
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+
+
+                            </span>
+                            <span class="review-count">
+                                <a href="">12 reviews</a>
+                            </span>
+                        </div>
+                        <!-- product input controls -->
+                        <div class="input-fields">
+                            <form>
+
+                                <div class="form-field">
+                                    <label class="form_label d-block mb-2" for="Whatsapp">Add Your Text</label>
+                                    <input id="Whatsapp" type="text" />
+                                </div>
+                                <div class="form-field">
+                                    <label class="form_label d-block mb-2" for="Whatsapp">Whatsapp Number For
+                                        Preview</label>
+                                    <input id="Whatsapp" type="text" />
+                                </div>
+                                <div class="form-field">
+                                    <label class="form_label d-block mb-2" for="quantity">Quantity</label>
+                                    <div class="quantitybtn">
+                                        <button class="dec">-</button>
+                                        <input type="text" disabled value="1" id="2">
+                                        <button class="inc">+</button>
+                                    </div>
+                                </div>
+                                <div class="buy-button  text-start">
+                                    <button type="button" class="btn btn-dark">Buy Now</button>
+                                </div>
+                                <div class="order-whatsapp  text-start">
+                                    <a class="whatsapp-btn text-nowrap" href="" type="button" class="btn">
+
+                                        <img src="assets/media/images/Social-icons/icons8-whatsapp-32.png" alt="">Order
+                                        On WhatsApp</button>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Product description -->
+                        <div class="product-description">
+                            <p>Tom and Jerry Couple Phone/Mobile Cover</p>
+                            <p>Hard Matte Case</p>
+                            <p>Comes with a Pop up Tom and Jerry Toy</p>
+                            <p>Select the design</p>
+                            <p>All Mobile Models can be done</p>
+                            <p>
+                                If you need any new design or customization you can text us in whatsapp us at
+                                <a href="">https//wa.me/918667256653</a>
+                            </p>
+                            <p>
+                                Unique Couple Gift for Girlfriend/Boyfriend, Husband/wife, Lover, Life Partner.
+                            </p>
+
+                        </div>
+                        <!-- Accordian -->
+                        <div class="accordion accordion-flush " id="accordionFlushExample">
+                            <div class="accordion-item">
+
+                                <h2 class="accordion-header ">
+                                    <button class="accordion-button collapsed ps-0" tabindex="1" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <i class="bi bi-star pe-2"></i> How to Customize
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Enter the details in the section provided likes pictures or names or
+                                                quotes</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Once your order is placed, we will send a preview( if any design work
+                                                means ) to your WhatsApp
+                                                number. Only after the design approval from you we will proceed and
+                                                courier it. If there is no
+                                                design work, the product will be completed and the final pic will be
+                                                shared</li>
+                                        </ul>
+                                        <ul>
+                                            <li>You can Whatsapp us on +918667256653 if you have any issues uploading
+                                                your pictures</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed ps-0" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <i class="bi bi-arrow-return-left pe-2"></i> Return and Refund Policy
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Enter the details in the section provided likes pictures or names or
+                                                quotes</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Once your order is placed, we will send a preview( if any design work
+                                                means ) to your WhatsApp
+                                                number. Only after the design approval from you we will proceed and
+                                                courier it. If there is no
+                                                design work, the product will be completed and the final pic will be
+                                                shared</li>
+                                        </ul>
+                                        <ul>
+                                            <li>You can Whatsapp us on +918667256653 if you have any issues uploading
+                                                your pictures</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed ps-0" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        <i class="bi bi-airplane pe-2"></i> Shipping Policy
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Enter the details in the section provided likes pictures or names or
+                                                quotes</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Once your order is placed, we will send a preview( if any design work
+                                                means ) to your WhatsApp
+                                                number. Only after the design approval from you we will proceed and
+                                                courier it. If there is no
+                                                design work, the product will be completed and the final pic will be
+                                                shared</li>
+                                        </ul>
+                                        <ul>
+                                            <li>You can Whatsapp us on +918667256653 if you have any issues uploading
+                                                your pictures</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- image preview modal -->
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+
+        </div>
+
+        <!-- Review section -->
+        <section id="review-section">
+            <div class="container p-0">
+                <h2 class="review-tittle text-center">Customer Reviews</h2>
+                <div class="row review  border-opacity-10 g-4">
+                    <div
+                        class="review-summary col-12 col-lg-4  d-flex  justify-content-center align-items-center border-lg-end">
+                        <div class="summary" id="rating2" role="rating" data-rating="5">
+                            <span role="button" tabindex="0" class="text-nowrap">
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                            </span>
+                            <span class="review-count">
+                                <a href="">5.00 out of 5</a>
+                            </span>
+                            <div class="summary-text text-sm-center">
+                                <p>Based on 4 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-history col-12 col-lg-4 d-flex flex-column align-items-center  border-lg-end ">
+                        <div class="history  d-flex justify-content-lg-evenly justify-content-sm-center  gap-4 ">
+                            <div class="review-history-star  text-end" id="rating3" role="rating" data-rating="5">
+                                <span role="button" tabindex="0" class="text-nowrap">
+
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+
+
+                                </span>
+                            </div>
+                            <div class="review-history-bar ">
+                                <div class="bar align-self-start"></div>
+                            </div>
+                            <div class="review-history-frequency  text-start">
+                                4
+                            </div>
+                        </div>
+                        <div class="history  d-flex justify-content-lg-evenly justify-content-sm-center gap-4 ">
+                            <div class="review-history-star  text-end" id="rating4" role="rating" data-rating="4">
+                                <span role="button" tabindex="0" class="text-nowrap">
+
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+
+
+                                </span>
+                            </div>
+                            <div class="review-history-bar ">
+                                <div class="bar align-self-start"></div>
+                            </div>
+                            <div class="review-history-frequency  text-start">
+                                0
+                            </div>
+                        </div>
+                        <div class="history  d-flex justify-content-lg-evenly justify-content-sm-center gap-4 ">
+                            <div class="review-history-star  text-end" id="rating5" role="rating" data-rating="3">
+                                <span role="button" tabindex="0" class="text-nowrap">
+
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+
+
+                                </span>
+                            </div>
+                            <div class="review-history-bar ">
+                                <div class="bar grey align-self-start"></div>
+                            </div>
+                            <div class="review-history-frequency  text-start">
+                                0
+                            </div>
+                        </div>
+                        <div class="history  d-flex justify-content-lg-evenly justify-content-sm-center gap-4 ">
+                            <div class="review-history-star  text-end" id="rating6" role="rating" data-rating="2">
+                                <span role="button" tabindex="0" class="text-nowrap">
+
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+
+
+                                </span>
+                            </div>
+                            <div class="review-history-bar ">
+                                <div class="bar grey align-self-start"></div>
+                            </div>
+                            <div class="review-history-frequency  text-start">
+                                0
+                            </div>
+                        </div>
+                        <div class="history  d-flex justify-content-lg-evenly justify-content-sm-center gap-4 ">
+                            <div class="review-history-star  text-end" id="rating7" role="rating" data-rating="1">
+                                <span role="button" tabindex="0" class="text-nowrap">
+
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+                                    <span class="star"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                            fill="#339999" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg></span>
+
+
+                                </span>
+                            </div>
+                            <div class="review-history-bar ">
+                                <div class="bar grey align-self-start"></div>
+                            </div>
+                            <div class="review-history-frequency  text-start">
+                                0
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="review-action col-12 col-lg-4 d-flex justify-content-center align-items-center ">
+                        <a href="#collapsible-form" role="button" class="text-center" data-bs-toggle="collapse"
+                            aria-controls="collapsible-form">Write a review</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- review form -->
+        <div class="form-wraper collapse  border-top border-opacity-10" id="collapsible-form">
+            <form action="">
+                <h3 class="form-tittle text-center">Write a review</h3>
+                <div class="form-field form-rating text-center">
+                    <label class="mb-2">Rating</label>
+                    <span class="d-block" role="button">
+                        <span class="star bordered" onclick="starmark(this)" id="1one"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="23" fill="transparent"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg></span>
+                        <span class="star bordered" onclick="starmark(this)" id="2one"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="23" fill="transparent"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg></span>
+                        <span class="star bordered" onclick="starmark(this)" id="3one"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="23" fill="transparent"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg></span>
+                        <span class="star bordered" onclick="starmark(this)" id="4one"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="23" fill="transparent"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg></span>
+                        <span class="star bordered" onclick="starmark(this)" id="5one"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="23" fill="transparent"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg></span>
+                    </span>
+                </div>
+                <div class="form-field tittle text-center">
+                    <label class="mb-2">Review Tittle</label>
+                    <input type="text" placeholder="Give your review a title">
+                </div>
+                <div class="form-field review text-center">
+                    <label class="mb-2" for="text-review">Review</label>
+                    <textarea name="Review" id="text-review" rows="5" placeholder="Write your comments here"></textarea>
+                </div>
+                <div class="form-field upload-btn-wrap text-center">
+                    <label class="mb-2 ">Picture/Video (optional)</label>
+                    <div class="upload-wrapper">
+                        <div class="box upload-btn">
+                            <label for="file-input">
+                                <img src="assets/media/images/upload.png" width="59" />
+                            </label>
+                            <input onchange="upload()" type="file" id="file-input" multiple accept="image/*"
+                                class="file-uploader">
+                        </div>
+                        <div class="box  image-preveiw row row-cols-2">
+                            <div class="delete-icon text-center">
+                                <a class="trash"><i class="fa-solid fa-trash"></i></a>
+                            </div>
+                            <div class="upload-img ">
+                                <!-- <div class="spinner-wrap">
+                    <div class="progress-text">100%</div>
+                     <div class="spinner"></div>
+                  </div> -->
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="form-field name text-center">
+                    <label class="mb-2">Name
+                        <span>(displayed publicly like
+                            <select name="" id="name_format">
+                                <option value="John Smith">John Smith</option>
+                                <option value="John S">John S</option>
+                                <option value="J.S">J.S</option>
+                                <option value="Anonymous">Anonymous</option>
+
+                            </select>
+                            <span><i class="fa-solid fa-caret-down"></i></span>)
+                        </span>
+                    </label>
+                    <input type="text" placeholder="Enter your name (public)">
+                </div>
+                <div class="form-field email text-center">
+                    <label class="mb-2">Email</label>
+                    <input type="text" placeholder="Enter your email (private)">
+                </div>
+                <div class="form-field form-text text-center">
+                    <p>How we use your data: We’ll only contact you about the review you left, and only if necessary. By
+                        submitting your review, you agree to Judge.me’s
+                        <a href="">terms</a>,<a href="">privacy</a>. and <a href="">content</a> policies.
+                    </p>
+
+                </div>
+                <div class="form-field cta justify-content-center d-flex flex-wrap gap-3">
+                    <div class="form-action  cancel mb-3">
+                        <a href="" class="text-center ">Cancel Review</a>
+                    </div>
+                    <div class="form-action  ">
+                        <a href="" class="text-center">Submit Review</a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+        <!-- review header with dropdown -->
+        <div class="container p-0 review-action-header border-top border-bottom border-opacity-10">
+            <div class="row ">
+                <div class="Dropdown-wrapper  ">
+                    <select name="" id="">
+                        <option value="">Most Recent</option>
+                        <option value="">Highest Rating</option>
+                        <option value="">Lowest Rating</option>
+                        <option value="">Only Pictures</option>
+                        <option value="">Pictures first</option>
+                        <option value="">Videos first</option>
+                    </select>
+                    <span class="dropdown-arrow"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- reviews writings -->
+        <section class="review-body ">
+            <div class="container reviews">
+                <div class="row review border-bottom border-opacity-10">
+                    <div class="row review-header">
+                        <div class="container-star d-flex " id="rating8" role="rating" data-rating="4">
+                            <span class="me-auto  stars text-nowrap" role="button" tabindex="0">
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                            </span>
+                            <span class="ms-auto ">04/10/2024</span>
+                        </div>
+                        <div class="review-profile d-flex gap-3 ">
+                            <div class="user-icon d-inline-block pt-2">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <div class="author align-self-center">Pugazheshwaran</div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="row review-content">
+                        <b>Got the couple case last week</b>
+                        <p>Beautiful design with Tom and Jerry. Nicely customized</p>
+                    </div>
+                    <div class="row review-pic">
+                        <a href="">
+                            <img src="assets/media/images/products/hover-img-2.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row review border-bottom border-opacity-10">
+                    <div class="row review-header">
+                        <div class="container-star d-flex " id="rating9" role="rating" data-rating="3">
+                            <span class="me-auto  stars text-nowrap" role="button" tabindex="0">
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                                <span class="star"><i class="fas fa-star"></i></span>
+                            </span>
+                            <span class="ms-auto ">04/10/2024</span>
+                        </div>
+                        <div class="review-profile d-flex gap-3 ">
+                            <div class="user-icon d-inline-block pt-2">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <div class="author align-self-center">Pugazheshwaran</div>
+                        </div>
+                    </div>
+                    <div class="row review-content">
+                        <b>Got the couple case last week</b>
+                        <p>Beautiful design with Tom and Jerry. Nicely customized</p>
+                    </div>
+                    <div class="row review-pic">
+                        <a href="">
+                            <img src="assets/media/images/products/hover-img-8.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product recommendations -->
+        <section>
+            <div class="container">
+                <div class="row product-recommendations d-flex justify-content-center">
+                    <h2 class="text-nowrap">
+                        You may also like
+                    </h2>
+                    <div class="row recommendations-card-wrapper gx-4 gy-4">
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                            <div class="card  border-0">
+                                <div class="overflow-hidden">
+                                    <div class="figure">
+                                        <img class="Sirv image-main card-img-top"
+                                            src="assets/media/images/products/couple-T-shirts.webp"
+                                            style="height: 15rem;">
+                                        <img class="Sirv image-hover card-img-top"
+                                            data-src="assets/media/images/products/couple-T-shirts2.webp"
+                                            style="height: 15rem;">
+                                    </div>
+
+                                </div>
+
+                                <div class="cardContent">
+                                    <h3 class="m-4 ms-0 mb-1">
+                                        <a href="" class="cardTitle">
+                                            Matching T shirts for Couples
+                                        </a>
+                                    </h3>
+
+                                    <div class="priceContainer">
+                                        <S class="orginalPriceTag">
+                                            Rs. 1,499.00
+                                        </S>
+                                        <span class="salePriceTag ms-3">
+                                            Rs. 1,199.00
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                            <div class="card  border-0">
+                                <div class="overflow-hidden">
+                                    <div class="figure">
+                                        <img class="Sirv image-main card-img-top"
+                                            src="assets/media/images/products/jery-t-shirt.webp" style="height: 15rem;">
+                                        <img class="Sirv image-hover card-img-top"
+                                            data-src="assets/media/images/products/jery-t-shirt2.webp"
+                                            style="height: 15rem;">
+                                    </div>
+
+                                </div>
+
+                                <div class="cardContent">
+                                    <h3 class="m-4 ms-0 mb-1">
+                                        <a href="" class="cardTitle">
+                                            Tom and Jerry T shirt for Couples
+                                        </a>
+                                    </h3>
+
+                                    <div class="priceContainer">
+                                        <S class="orginalPriceTag">
+                                            Rs. 1,499.00
+                                        </S>
+                                        <span class="salePriceTag ms-3">
+                                            Rs. 1,199.00
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                            <div class="card  border-0">
+                                <div class="overflow-hidden">
+                                    <div class="figure">
+                                        <img class="Sirv image-main card-img-top"
+                                            src="assets/media/images/products/mobile-case.webp" style="height: 15rem;">
+                                        <img class="Sirv image-hover card-img-top"
+                                            data-src="assets/media/images/products/mobile-case2.webp"
+                                            style="height: 15rem;">
+                                    </div>
+
+                                </div>
+
+                                <div class="cardContent">
+                                    <h3 class="m-4 ms-0 mb-1">
+                                        <a href="" class="cardTitle">
+                                            Couple Mobile/Phone Covers
+                                        </a>
+                                    </h3>
+
+                                    <div class="priceContainer">
+                                        <S class="orginalPriceTag">
+                                            Rs. 1,499.00
+                                        </S>
+                                        <span class="salePriceTag ms-3">
+                                            Rs. 1,199.00
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                            <div class="card  border-0">
+                                <div class="overflow-hidden">
+                                    <div class="figure">
+                                        <img class="Sirv image-main card-img-top"
+                                            src="./assets/media/images/products/image23.webp" style="height: 15rem;">
+                                        <img class="Sirv image-hover card-img-top"
+                                            data-src="assets/media/images/products/hover-img-6.webp"
+                                            style="height: 15rem;">
+                                    </div>
+
+                                </div>
+
+                                <div class="cardContent">
+                                    <h3 class="m-4 ms-0 mb-1">
+                                        <a href="" class="cardTitle">
+                                            Tom and Jerry Couple Phone/Mobile Cover
+                                        </a>
+                                    </h3>
+
+                                    <div class="priceContainer">
+                                        <S class="orginalPriceTag">
+                                            Rs. 1,499.00
+                                        </S>
+                                        <span class="salePriceTag ms-3">
+                                            Rs. 1,199.00
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- footer -->
+    <section class="mt-5 ">
+        <!-- Footer 16 - Bootstrap Brain Component -->
+        <footer class="py-4 py-md-5 bg-black mt-5">
+
+            <!-- Logo & SM - Bootstrap Brain Component -->
+            <div>
+                <div class="container border-bottom border-dark  pb-4">
+                    <div class="row gy-3 align-items-sm-center">
+                        <div class="col-12 col-sm-6">
+                            <div class="footer-logo-wrapper text-start">
+                                <a href="#!">
+                                    <img src="./assets/media/images/logo.avif" style=" max-width: 30%;"
+                                        alt="BootstrapBrain Logo" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="social-media-wrapper">
+                                <ul class="m-0 list-unstyled d-flex justify-content-sm-end gap-2">
+                                    <li>
+                                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                fill="currentColor" class="bi bi-facebook text-lightx"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-reddit" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6.167 8a.83.83 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661m1.843 3.647c.315 0 1.403-.038 1.976-.611a.23.23 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83s.83-.381.83-.83a.831.831 0 0 0-1.66 0z" />
+                                                <path
+                                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.2.2 0 0 0-.153.028.2.2 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224q-.03.17-.029.353c0 1.795 2.091 3.256 4.669 3.256s4.668-1.451 4.668-3.256c0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="btn btn-outline-light bsb-btn-circle bsb-btn-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-dribbble" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8m5.284 3.688a6.8 6.8 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A7 7 0 0 1 8 1.18m-2.907.642A43 43 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.87 6.87 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.82 6.82 0 0 1-1.752-4.564zM8 14.837a6.8 6.8 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.3 28.3 0 0 1 1.457 5.18A6.7 6.7 0 0 1 8 14.837m3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.77 6.77 0 0 1-2.924 4.573z" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Widgets Link - Bootstrap Brain Component -->
+            <section class="py-4 py-md-5 py-xl-7 py-xxl-10">
+                <div class="container">
+                    <div class="row gy-4 gy-md-0">
+                        <div class="col-6 col-md-3">
+                            <div class="link-wrapper">
+                                <h4 class="mb-3 fw-bold fs-7 text-light">All Collections</h4>
+                                <ul class="m-0 list-unstyled">
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Best Seller
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Anniversary Gift
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Birthday Gifts
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Couple gifts
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Gift for Her
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Valentine day Gift
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Gift For Him
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                    <a href="#!"
+                                        class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                        3D Gifts
+                                    </a>
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                    <a href="#!"
+                                        class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                        Handmade Gifts
+                                    </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Photo Frames
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Plush Toys
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Keychain
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Merge Art
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Photo Projection Gifts
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Combo Gifts
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Travel Accessories
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="link-wrapper">
+                                <h4 class="mb-3 fw-bold fs-7 text-light">Important Pages</h4>
+                                <ul class="m-0 list-unstyled">
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Contact
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Terms of Service
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Return and Refund Policy
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Shipping Policy
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="link-wrapper">
+                                <h4 class="mb-3 fw-bold fs-7 text-light">Contact Info</h4>
+                                <ul class="m-0 list-unstyled">
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Email: hello@giftify.in
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            MO: +918667256653
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="link-wrapper">
+
+                                <ul class="m-0 list-unstyled">
+                                    <li class="mb-1">
+                                        <a href="#!"
+                                            class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light">
+                                            Giftify is your one-stop gifting shop. Our sole aim is to make people happy
+                                            with our beautiful
+                                            customized gifts. Giftify has all kinds of gifts that can be gifted on all
+                                            occasions like
+                                            Valentines day, Birthday, Anniversary, Wedding.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Copyright & Links - Bootstrap Brain Component -->
+            <div>
+                <div class="container border-top border-dark pt-4">
+                    <div class="row gy-3 align-items-lg-center">
+                        <div class="col-12 col-lg-6 order-1 order-lg-0">
+                            <div class="copyright-wrapper d-block mb-1 fs-7 text-light text-start">
+                                &copy; 2024. All Rights Reserved.
+                            </div>
+                            <div class="credit-wrapper d-block text-light fs-8 text-start">
+                                Built by<a href="https://avenstek.com/"
+                                    class="link-opacity-0 link-opacity-75-hover link-light text-decoration-none">
+                                    Avenstek</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+</body>
+
+</html>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.1.2/dist/js/coreui.bundle.min.js"
+    integrity="sha384-yoEOGIfJg9mO8eOS9dgSYBXwb2hCCE+AMiJYavhAofzm8AoyVE241kjON695K1v5"
+    crossorigin="anonymous"></script>
+<script src="./assets/js/index.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="./assets/aos/js/aos.js"></script>
+<script src="/assets//js//product.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/fb1bad45a7.js" crossorigin="anonymous"></script>
+<script src="./assets/slick-carousel/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+    integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>

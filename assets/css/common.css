@@ -1,0 +1,169 @@
+/* Poppins Font  */
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url('../font/Poppins-ExtraBold.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../font/Poppins-Bold.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../font/Poppins-SemiBold.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../font/Poppins-Medium.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../font/Poppins-Regular.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url('../font/Poppins-Light.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url('../font/Poppins-ExtraLight.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url('../font/Poppins-Thin.ttf') format("opentype")
+}
+@font-face {
+    font-family: Assistant-Bold;
+    src: url('../font/Assistant-Bold.ttf') format("opentype")
+}
+@font-face {
+    font-family: Assistant-Medium;
+    src: url('../font/Assistant-Medium.ttf') format("opentype")
+}
+@font-face {
+    font-family: Assistant-Regular;
+    src: url('../font/Assistant-Regular.ttf') format("opentype")
+}
+@font-face {
+    font-family: Assistant-SemiBold;
+    src: url('../font/Assistant-SemiBold.ttf') format("opentype")
+}
+@font-face {
+    font-family: Assistant-Light;
+    src: url('../font/Assistant-Light.ttf') format("opentype")
+}
+@font-face {
+    font-family: Assistant-ExtraBold;
+    src: url('../font/Assistant-ExtraBold.ttf') format("opentype")
+}
+
+
+/* products list */
+.cardTitle{
+    text-decoration: none;
+    color: currentColor;
+    display: block;
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: 650;
+    font-family:Assistant-Bold;
+}
+.card{
+    cursor: pointer;
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+.rating{
+    font-size: 11px;
+    letter-spacing: 6px;
+}
+.review{
+    letter-spacing: 0.7px;
+    font-weight: 670;
+}
+.orginalPriceTag{
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 80%;
+}
+.salePriceTag{
+    font-weight: 600;
+    font-family:Assistant-Bold;
+    letter-spacing: 0.7px;
+
+}
+
+/* Image swap on hover effect */
+.figure{
+    position: relative;
+    width: 288px;
+    max-width: 100%;
+}
+   
+
+
+.figure img.Sirv.image-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit:fit;
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.1s;
+}
+
+
+.card:hover img.Sirv.image-hover{
+    opacity:1;
+    transform: scale(1.1);
+}
+
+/* colelctions */
+.collectionCardTitle{
+    text-decoration: none;
+    color: currentColor;
+    display: block;
+    font-size: 21px;
+    letter-spacing: .5px;
+    font-weight: 650;
+    font-family:Assistant-Bold;
+}
+.collectionCardTitle P i{
+    font-size: 13px;
+}
+
+.collectionCard div img{
+    height: 15rem;
+}
+
+/* sale tag on cards */
+.tag {
+    /* align-items: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 48px;
+    height: 22px;
+    font-size: 12px;
+    font-family: Assistant-bold,sans-serif;
+    letter-spacing: .5px;
+
+}
+
+.tag.soldout-tag{
+    width: 68px;
+    height: 22px;
+    
+   
+}

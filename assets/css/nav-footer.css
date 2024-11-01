@@ -1,0 +1,127 @@
+.logoImg{
+    padding: .75rem;
+    
+}
+.logoImg img{
+    max-width: 190px;
+    /* display: inline-block; */
+}
+
+.announcementBar{
+    background-color: white;
+}
+
+.navbars{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+ 
+}
+.navLinksTxt{
+    color: white !important;
+    font-family:  Assistant-Bold;
+    font-size: 14px;
+    letter-spacing: .5px;
+    opacity: 80%;
+}
+.navLinksTxt:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+
+    opacity: 100%;
+    transition: 0.5s;
+}
+.navActiveText{
+    opacity: 100%;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+.navLink{
+    display: flex !important;
+    align-items: center ;
+    justify-content: center;
+}
+.navIcons a{
+    color: white;
+    opacity: 88%;
+    text-decoration: none;
+}
+.navIcons a:hover{
+    color: white;
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.navIcons a i:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.navbar-toggler i{
+    color:white;
+    margin: 0;
+}
+.container-fluid nav .menu-items{
+    margin-right: 160px;
+}
+
+.container-fluid nav .logoImg{
+  margin-right: 0px;
+}
+
+.container-fluid nav .navIcons{
+    padding: 0px;
+}
+
+/* sidebar offcanvas design */
+
+.offcanvas.offcanvas-start{
+    top:145px ;
+    z-index:1000 ;
+}
+
+.offcanvas{
+    background-color: #000000 ;
+}
+
+.offcanvas-backdrop {
+    z-index: 998;
+}
+    
+.offcanvas .offcanvas-body ul li {
+   list-style-type: none;
+   padding: 10px 0px;
+}
+   
+.offcanvas .offcanvas-body ul li a{
+   color: white;
+   white-space: nowrap;
+   padding: 11px 32px;
+   font-family: Assistant-Bold,poppins;
+   font-size: 18px;
+   text-decoration: none;
+}
+
+.offcanvas .offcanvas-body ul.menu-items li:hover{
+    background-color: #ffffff12;
+}
+
+.drawer.utility-links{
+    background-color: #ffffff12;
+}
+
+.drawer.utility-links a{
+    padding-left:33px ;
+}
+    
+
+
+
+
+
+
+
+
+
+
